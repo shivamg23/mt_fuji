@@ -1,0 +1,16 @@
+{
+"comment": "Adding DNS config for the required Ingress",
+    "Changes": [
+        {
+            "Action": "UPSERT",
+            "ResourceRecordSet": {
+                "Name": "httpd-shivamgaur.ping-fuji.com.",
+                "Type": "A",
+                "ResourceRecords": [
+                {
+                    "Value": "a0fc6e44e91354ebd80c124364b6b228-1053065812.us-west-2.elb.amazonaws.com"
+		}
+            }
+        }
+    ]
+}
